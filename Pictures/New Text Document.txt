@@ -1,0 +1,3 @@
+<section (click)="clickMe()" [@moveMe]="isOpen? 'clicked':'init'" class="section_comments" >
+      <p>section_comments</p>
+   </section>

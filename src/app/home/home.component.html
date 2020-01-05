@@ -1,0 +1,133 @@
+<div class="container">
+  <header>
+    <div class="main_logo">
+        <h2>Insight</h2>
+        <div class="glowbox" (mouseenter)='overOn($event)' (mouseleave)='overOff($event)'></div>
+        <p>New opportunities for the world</p>
+        <img class="logo" src="../../assets/Pictures/logome.png" alt="logo">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum maiores voluptatem asperiores praesentium iste maxime sit possimus
+          consectetur adipisicing praesentium iste maxime sit
+        </h4>
+    </div>
+  </header>
+
+  <section class="section_one anim_one" [@scrollAnimation_one_main]="state_one">
+    <div class="lorem" [@scrollAnimation_one]="state2">
+        <h3>Lorem ipsum</h3>
+        <p class="n_wh_text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eos, eligendi quos fugiat accusantium obcaecati, 
+          alias quia harum, aperiam ratione temporibus dolores dolorem dolor ea? Ducimus quos rerum quisquam enim!
+        </p>
+    </div>
+    <div class="lorem" [@scrollAnimation_two]="state2">
+        <h3>kasd lorem</h3>
+        <p class="n_wh_text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eos, eligendi quos fugiat accusantium obcaecati, 
+          alias quia harum, aperiam ratione temporibus dolores dolorem dolor ea? Ducimus quos rerum quisquam enim!
+        </p>
+    </div>
+    <div class="lorem" [@scrollAnimation_three]="state2">
+        <h3>Dolor Sit</h3>
+        <p class="n_wh_text">
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eos, eligendi quos fugiat accusantium obcaecati, 
+           alias quia harum, aperiam ratione temporibus dolores dolorem dolor ea? Ducimus quos rerum quisquam enim!
+        </p>
+    </div>
+  </section>
+
+  <section class="section_graph">
+      <div class="lorem" >
+          <div class="icon anim_icon" [@scrollAnimation_icon_one]="state_icon_one">
+            <img src="../../assets/Pictures/card_icon.png" alt="icon" >
+          </div>
+          <p class="n_wh_text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+              sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+              At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+              no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+          </p>
+      </div>
+      <div class="lorem">
+          <div class="icon" [@scrollAnimation_icon_two]="state_icon_one">
+            <img src="../../assets/Pictures/graph.png" alt="icon">
+          </div>
+          <p class="n_wh_text">
+              Graph
+          </p>
+          <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+      </div>
+      <div class="lorem">
+          <div class="icon" [@scrollAnimation_icon_three]="state_icon_one">
+            <img src="../../assets/Pictures/wallet_icon.png" alt="icon">
+          </div>
+          <p class="n_wh_text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+              no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+          </p>
+      </div>
+  </section>
+
+  <section class="section_comments" >
+      <div class="lorem">
+          <div class="icon icon_avatar">
+            <img src="../../assets/Pictures/avatar1.png" alt="icon">
+          </div>
+          <p class="n_wh_text quote">
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+          </p>
+          <div class="nick_name">
+            <div class="active"></div>
+              <p class="nick_name_p"> Natalia Perec</p>
+          </div>
+          
+      </div>
+      <div class="lorem">
+          <div class="icon icon_avatar">
+            <img src="../../assets/Pictures/avatar2.png" alt="icon">
+          </div>
+          <p class="n_wh_text quote">
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+          </p>
+          <div class="nick_name">
+              <div class="active"></div>
+                <p class="nick_name_p">Derek Brodnicki</p>
+            </div>
+      </div>
+   </section>
+
+  <section class="join_us">
+      <div class="lorem">
+          <h4>
+              Looking for new opportunities?
+          </h4>
+          <div id="join_us" class="join_button" [@scrollAnimation]="state">
+             <h2>Join us</h2>
+          </div>
+      </div>
+  </section>
+
+  <footer>
+    <div class="lorem">
+      <ul>
+        <li> Contact </li>
+        <li><a href="/">Contact us</a></li>
+        <li><a href="/">Our adresses</a></li>
+      </ul>
+    </div>
+    <div class="lorem">
+      <ul>
+        <li>Social media</li>
+        <li><a href="/">Facebook</a></li>
+        <li><a href="/">Instagram</a></li>
+      </ul>
+    </div>
+    <div class="lorem">
+      <ul>
+          <li>Other</li>
+        <li><a href="/">Newsletter signup</a></li>
+        <li><a href="/">More about us</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
