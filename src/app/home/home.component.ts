@@ -193,15 +193,4 @@ private async first_section_anim()
     this.world.changeMe();
   }
 
-
-  overOn(event){ 
-    event.target.classList.add('newClass');
-    event.target.classList.remove('glowbox');
-   
-  }
-  overOff(event){
-    event.target.classList.remove('newClass');
-    event.target.classList.add('glowbox');
-   
-  }
 }

@@ -247,70 +247,9 @@ footer .lorem li:first-of-type{
     .main_logo .glowbox{
         height: 5px;
         width: 35%;
-        transition: 1s ease-in-out;
+        
     }
-    .newClass{
-        height: 5px;
-        width: 35%;
-    background-color: rgb(177, 109, 21);
-    margin: 0 auto;
-    position: relative;
-    transition: 1s ease-in-out;
-    cursor: pointer;
-    }
-    .newClass::before{
-        content: '';
-    width: 100%;
-    height: 100%;
-    background-color: rgb(223, 150, 107);
-    display:block;
    
-    filter:blur(15px);
-    transition: 1s ease-in-out;
-    }
-    
-      .newClass:after{
-        content: 'h';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-       
-       
-        display:block;
-        background-color: rgb(189, 128, 21);
-        filter:blur(15px);
-    animation: gloweffectHover 2s ease-in-out infinite;
-    transition: 1s ease-in-out;
-      }
-
-@keyframes gloweffectHover{
-    0%{
-        height: 100%;
-        opacity: 0.5;
-    }
-    25%{
-        height: 125%;
-        background-color: rgb(189, 105, 27);
-        opacity: 0.75;
-    }
-    50%{
-        height: 150%;
-        background-color: rgb(207, 130, 57);
-        opacity: 1;
-    }
-    75%{
-        height: 125%;
-        background-color: rgb(228, 160, 97);
-        opacity: 0.75;
-    }
-    100%{
-        height: 100%;
-        opacity: 0.5;
-    }
-}
     .main_logo h4{
         display: block;
         width: 35%;
