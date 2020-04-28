@@ -20,15 +20,15 @@ export class AppComponent {
     private rout: Router){}
 
   ngOnInit(){
-      this.subscription =  this.world.listenItemOvs$
-      .subscribe((item) => {
-        //if item is false route to next page (module) regions
-        //add animation and delay
-         setTimeout(() => {
-           if(item == false) this.goToRegions();    
-         }, 2000);
+      // this.subscription =  this.world.listenItemOvs$
+      // .subscribe((item) => {
+      //   //if item is false route to next page (module) regions
+      //   //add animation and delay
+      //    setTimeout(() => {
+            
+      //    }, 2000);
         
-      });
+      // });
       
 
     
@@ -46,11 +46,8 @@ export class AppComponent {
       }
    });
   }
-  goToRegions(){
-    this.rout.navigate(['/regions']);
-  }
  
-  ngOnDestroy(){
-    this.subscription.unsubscribe();
-  }
+  // ngOnDestroy(){
+  //   this.subscription.unsubscribe();
+  // }
 }
